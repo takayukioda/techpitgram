@@ -4,8 +4,12 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
+post_a_img:
+  image: 10x10.png
+  post: post_a
+post_b_img:
+  image: 10x10.png
+  post: post_b
+  capture: 'This image is 10x10 pixel'
+# two: {}
 # column: value
